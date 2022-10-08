@@ -31,11 +31,11 @@ const SinglePost = ({ post }) => {
                     <Image src={Source} className="image" />
                 </div>
                 <Card.Title className="titleSinglePost ps-3 mt-3">
-                    { data?.attributes?.Title}
+                    { data?.data?.attributes?.Title}
                 </Card.Title>
                 <Card.Body>
                     <TextContentPost>
-                    { htmlToReactParser.parse(data?.attributes?.Content)}
+                    { htmlToReactParser.parse(data?.data?.attributes?.Content)}
                     </TextContentPost>
                 </Card.Body>
                 <Card.Footer className="postFooter p-4 pe-0">

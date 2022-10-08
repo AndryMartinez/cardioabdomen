@@ -29,6 +29,9 @@ import { useState } from 'react';
 
 function App() {
   const [search , setSearch] = useState('')
+
+  const [category , setCategory ] = useState('')
+
   return (
     <Router>
       <NavBar search={search} setSearch={setSearch} />

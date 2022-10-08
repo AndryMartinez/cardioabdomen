@@ -12,7 +12,7 @@ const useStrappi = (collection) => {
             setLoading(true)
 
             try {
-                const res = await fetch('http://localhost:1337/api/' + collection)
+                const res = await fetch( 'https://cardioabdomen.herokuapp.com/api/' + collection)
                 .then(response => response.json())
                 .then(result => (result)) //--> data
                 .catch(error => console.log('error', error))

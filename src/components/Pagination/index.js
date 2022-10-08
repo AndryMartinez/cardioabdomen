@@ -6,7 +6,8 @@ const PaginationComponent = ({ page , setPage , total }) => {
     let items = [];
     for (let number = 1; number <= total ; number++) {
         items.push(
-            <Pagination.Item key={number} active={number === active} onClick={() => setPage(number) } >
+            <Pagination.Item key={number} active={number === active} onClick={() => setPage(number) } 
+            color='red' >
                 {number}
             </Pagination.Item>,
         );

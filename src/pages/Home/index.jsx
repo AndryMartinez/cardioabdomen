@@ -36,7 +36,7 @@ const Home = ({ search, category }) => {
             <Row>
                 <Col lg='12' className='ps-0' >
                     {
-                        data && data.data?.map((post) => (
+                        data?.data?.map((post) => (
                             <Col lg='12' className='mb-3'>
                                 <PostCard
                                     title={post.attributes.Title}
@@ -49,7 +49,7 @@ const Home = ({ search, category }) => {
                 </Col>
 
                 <Col lg='12' className=' p-0 justify-content-center align-items-center text-center'>
-                    <PaginationComponent page={page} setPage={setPage} total={data?.meta?.pagination?.total} />
+                    <PaginationComponent page={page} setPage={setPage} total={data?.meta?.pagination?.pageCount} />
                 </Col>
             </Row>
         </Container>

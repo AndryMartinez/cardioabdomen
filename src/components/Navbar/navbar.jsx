@@ -18,7 +18,7 @@ const NavBar = ({ search, setSearch }) => {
             <Container>
                 <Link to={'/'} className='brand me-5'>
                     <Navbar.Brand className='brand'>
-                        Cardio Abdomens
+                        Cardio Abdomen
                     </Navbar.Brand>
                 </Link>
 
@@ -38,9 +38,6 @@ const NavBar = ({ search, setSearch }) => {
                         </Nav.Link>
                         <Nav.Link className='nav-item'>
                             <NavDropdown title="Categorias" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">
-                                    Todas
-                                </NavDropdown.Item>
                                 {
                                     data?.data?.map((categorie) => (<NavDropdown.Item href="#action/3.1">
                                         {categorie.attributes.name}
