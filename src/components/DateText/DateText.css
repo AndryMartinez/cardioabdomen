@@ -1,0 +1,9 @@
+.DateText {
+    color: rgb(102, 109, 113);
+    display: block;
+    font-size: 1.6em !important;
+    margin: 0px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}

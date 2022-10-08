@@ -5,9 +5,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #fff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(192, 34, 34, 0.0);
+  box-shadow: 0 1px 1px rgba(255, 58, 58, 0.075) inset, 0 0 8px rgba(192, 34, 34, 0.0);
+  outline: 0 none;
+}
+
+.backred {
+  background-color: red;
+}
+
+.backblue {
+  background-color: blue;
+}
+
+.backpurple {
+  background-color: purple;
+}
+
+
+.bg-primary {
+  background-color: black !important;
+}
+
+.footer {
+  background-color: #000000;
 }

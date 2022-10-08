@@ -1,0 +1,11 @@
+@import url('http://fonts.cdnfonts.com/css/robotronics');
+
+.newsText {
+    font-family: 'Robotronics', sans-serif;
+    font-size: 1.458em;
+}
+
+.bg-buttom {
+    background-color: black;
+    color: #fff;
+}

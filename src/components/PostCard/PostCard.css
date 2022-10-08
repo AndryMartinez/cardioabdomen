@@ -1,0 +1,18 @@
+.Card {
+    width: '100%';
+}
+
+.title {
+    color: rgb(62 70 91);
+    font-size: 40px !important;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px 30px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif ;
+    text-decoration: none;
+}
+
+.date {
+    align-items: center;
+}

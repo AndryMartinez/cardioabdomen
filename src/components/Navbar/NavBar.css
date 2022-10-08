@@ -1,0 +1,12 @@
+@import url('http://fonts.cdnfonts.com/css/robotronics');
+
+.navbar {
+    height: 70px;
+    background-color: #fff;
+}
+
+.brand {
+    font-family: 'Robotronics', sans-serif;
+    font-size: 35px !important;
+    text-decoration: none;
+}
