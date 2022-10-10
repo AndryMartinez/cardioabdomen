@@ -28,7 +28,7 @@ const SinglePost = ({ post }) => {
         <Container className='mt-5 col-lg-12'>
             <Card className="Card rounded-0 shadow">
                 <div className="imageContainer">
-                    <Image src={Source} className="image" />
+                    <Image src={Source} className="image" loading="lazy" />
                 </div>
                 <Card.Title className="titleSinglePost ps-3 mt-3">
                     { data?.data?.attributes?.Title}

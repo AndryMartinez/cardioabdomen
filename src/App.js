@@ -23,7 +23,7 @@ import Footer from './components/Footer';
 import Contact from './pages/Contact';
 import Policy from './pages/Policy';
 import About from './pages/AboutUs';
-import { useState } from 'react';
+import React , { useState } from 'react';
 
 
 
